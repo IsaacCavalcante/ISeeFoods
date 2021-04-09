@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		582315A1260D89D400196ECC /* ObservableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582315A0260D89D400196ECC /* ObservableElement.swift */; };
 		58799BC626026439001B9E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58799BC526026439001B9E56 /* AppDelegate.swift */; };
 		58799BC826026439001B9E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58799BC726026439001B9E56 /* SceneDelegate.swift */; };
 		58799BCA26026439001B9E56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58799BC926026439001B9E56 /* ViewController.swift */; };
 		58799BCD26026439001B9E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58799BCB26026439001B9E56 /* Main.storyboard */; };
 		58799BCF2602643E001B9E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58799BCE2602643E001B9E56 /* Assets.xcassets */; };
 		58799BD22602643E001B9E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58799BD02602643E001B9E56 /* LaunchScreen.storyboard */; };
+		58799BDB26026747001B9E56 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 58799BDA26026747001B9E56 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		582315A0260D89D400196ECC /* ObservableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableElement.swift; sourceTree = "<group>"; };
 		58799BC226026439001B9E56 /* ISeeFoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISeeFoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58799BC526026439001B9E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58799BC726026439001B9E56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		58799BCE2602643E001B9E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58799BD12602643E001B9E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58799BD32602643E001B9E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58799BDA26026747001B9E56 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5823159F260D89B700196ECC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				582315A0260D89D400196ECC /* ObservableElement.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		58799BB926026439001B9E56 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +68,7 @@
 		58799BC426026439001B9E56 /* ISeeFoods */ = {
 			isa = PBXGroup;
 			children = (
+				5823159F260D89B700196ECC /* Model */,
 				58799BC526026439001B9E56 /* AppDelegate.swift */,
 				58799BC726026439001B9E56 /* SceneDelegate.swift */,
 				58799BC926026439001B9E56 /* ViewController.swift */,
@@ -63,6 +76,7 @@
 				58799BCE2602643E001B9E56 /* Assets.xcassets */,
 				58799BD02602643E001B9E56 /* LaunchScreen.storyboard */,
 				58799BD32602643E001B9E56 /* Info.plist */,
+				58799BDA26026747001B9E56 /* Inceptionv3.mlmodel */,
 			);
 			path = ISeeFoods;
 			sourceTree = "<group>";
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582315A1260D89D400196ECC /* ObservableElement.swift in Sources */,
 				58799BCA26026439001B9E56 /* ViewController.swift in Sources */,
+				58799BDB26026747001B9E56 /* Inceptionv3.mlmodel in Sources */,
 				58799BC626026439001B9E56 /* AppDelegate.swift in Sources */,
 				58799BC826026439001B9E56 /* SceneDelegate.swift in Sources */,
 			);
